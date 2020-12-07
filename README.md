@@ -11,6 +11,8 @@ Now the default login display a link to `OpenID Connect` redirecting you to a fo
 
 With this fragment, you can give to end users a single button to sign in to an OIDC Provider (e.g. `Sign in with GitHub`).
 
+You might have recognized Keycloak in the GIF above. If you're interested in this setup, take a look at this repo: https://github.com/lgdd/liferay-keycloak-demo.
+
 ## How to import into Liferay
 
 Run `npm run import` and follow instructions or `npm run compress` to create a zip file and import from Liferay UI.
