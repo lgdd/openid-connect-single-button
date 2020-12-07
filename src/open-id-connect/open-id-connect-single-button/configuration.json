@@ -1,0 +1,36 @@
+{
+  "fieldSets": [
+    {
+      "label": "OpenID Connect Configuration",
+      "fields": [
+        {
+          "name": "oidcProviderName",
+          "label": "OpenID Connect Provider Name",
+          "description": "oidc-provider-name",
+          "type": "text",
+          "typeOptions": {
+            "placeholder": "From Instance Settings > SSO > OIDC Provider"
+          },
+          "dataType": "string",
+          "defaultValue": ""
+        }
+      ]
+    },
+    {
+      "label": "Label",
+      "fields": [
+        {
+          "name": "loginButtonText",
+          "label": "Login Button Text",
+          "description": "login-button-text",
+          "type": "text",
+          "typeOptions": {
+            "placeholder": "Sign in"
+          },
+          "dataType": "string",
+          "defaultValue": "Sign in"
+        }
+      ]
+    }
+  ]
+}
