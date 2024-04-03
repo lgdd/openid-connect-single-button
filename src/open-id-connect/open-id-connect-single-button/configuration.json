@@ -4,12 +4,12 @@
       "label": "OpenID Connect Configuration",
       "fields": [
         {
-          "name": "oidcProviderName",
-          "label": "OpenID Connect Provider Name",
-          "description": "oidc-provider-name",
+          "name": "oAuthClientEntryId",
+          "label": "OAuth Client Entry Id",
+          "description": "Use the configuration helper to find the ID",
           "type": "text",
           "typeOptions": {
-            "placeholder": "From Instance Settings > SSO > OIDC Provider"
+            "placeholder": "e.g. 31211"
           },
           "dataType": "string",
           "defaultValue": ""
@@ -22,7 +22,7 @@
         {
           "name": "loginButtonText",
           "label": "Login Button Text",
-          "description": "login-button-text",
+          "description": "Text to display in the button",
           "type": "text",
           "typeOptions": {
             "placeholder": "Sign in"
